@@ -1,0 +1,21 @@
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -12px;
+  margin-right: -12px; }
+
+.nav__link {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 12px;
+  display: block;
+  font-size: 13px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s; }
+  .nav__link.active, .nav__link:hover {
+    color: #2060f6; }
+
+/*# sourceMappingURL=nav.css.map */

@@ -1,0 +1,50 @@
+.expertise {
+  padding-top: 120px;
+  padding-bottom: 90px; }
+  @media (max-width: 991.98px) {
+    .expertise {
+      padding-top: 60px;
+      padding-bottom: 30px; } }
+  .expertise__title {
+    text-align: center;
+    margin-bottom: 50px; }
+  .expertise__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    @media (max-width: 991.98px) {
+      .expertise__block {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; } }
+  .expertise__item {
+    text-align: center;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 264px;
+            flex: 0 0 264px;
+    margin-bottom: 30px;
+    max-width: 264px; }
+  .expertise__img {
+    margin-bottom: 40px;
+    display: inline-block; }
+    @media (max-width: 991.98px) {
+      .expertise__img {
+        margin-bottom: 15px; } }
+  .expertise__name {
+    font-size: 20px;
+    margin-bottom: 12px; }
+  .expertise__description {
+    font-size: 14px; }
+
+/*# sourceMappingURL=expertise.css.map */

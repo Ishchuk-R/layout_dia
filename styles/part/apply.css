@@ -1,0 +1,24 @@
+.apply {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  background: url(../images/apply-bg.jpg) no-repeat 50% 50%; }
+  @media (max-width: 991.98px) {
+    .apply {
+      padding-top: 60px;
+      padding-bottom: 60px; } }
+  .apply__title {
+    font-size: 52px;
+    margin-bottom: 15px; }
+    @media (max-width: 991.98px) {
+      .apply__title {
+        font-size: 36px; } }
+  .apply__description {
+    font-size: 24px;
+    max-width: 750px;
+    margin: 10px auto 40px; }
+    @media (max-width: 991.98px) {
+      .apply__description {
+        font-size: 20px; } }
+
+/*# sourceMappingURL=apply.css.map */
