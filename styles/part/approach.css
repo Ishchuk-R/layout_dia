@@ -1,12 +1,18 @@
 .approach {
-  padding-top: 200px;
-  padding-bottom: 200px;
   position: relative;
   background: #e5e5e5; }
-  @media (max-width: 991.98px) {
-    .approach {
-      padding-top: 60px;
-      padding-bottom: 60px; } }
+  .approach__extra-container {
+    position: relative;
+    max-width: 1600px;
+    margin: auto;
+    padding-top: 200px;
+    padding-bottom: 200px; }
+    @media (max-width: 991.98px) {
+      .approach__extra-container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        max-width: 400px;
+        margin: auto; } }
   .approach__desc {
     color: #fff;
     position: relative;
@@ -78,7 +84,7 @@
         position: relative;
         max-width: 400px;
         width: 100%;
-        margin-top: 30px;
-        border-radius: 30px; } }
+        border-radius: 30px;
+        margin: 30px auto 0; } }
 
 /*# sourceMappingURL=approach.css.map */

@@ -7,6 +7,9 @@
   width: 20px;
   text-align: center;
   height: 20px; }
+  @media (max-width: 767.98px) {
+    .menu-btn {
+      right: 15px; } }
   .menu-btn:before {
     content: "";
     width: 150%;

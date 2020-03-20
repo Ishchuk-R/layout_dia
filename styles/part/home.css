@@ -4,6 +4,10 @@
   position: relative;
   border-radius: 0 0 30px 30px;
   margin-bottom: -25px; }
+  .home__extra-container {
+    position: relative;
+    max-width: 1600px;
+    margin: auto; }
   @media (max-width: 991.98px) {
     .home {
       border-radius: 0;
@@ -30,7 +34,8 @@
     padding-right: 25px; }
     @media (max-width: 991.98px) {
       .home__block {
-        margin-bottom: 55px; } }
+        margin: 0 auto 55px;
+        text-align: center; } }
   .home__title {
     font-size: 64px;
     color: #fff;
@@ -57,7 +62,8 @@
         max-width: 460px; } }
     @media (max-width: 991.98px) {
       .home__carousel {
-        position: relative; } }
+        position: relative;
+        margin: auto; } }
     .home__carousel .owl-stage {
       line-height: 0; }
     .home__carousel div.owl-nav {
@@ -88,7 +94,12 @@
         text-align: center;
         font-weight: 600;
         position: relative;
+        -webkit-transition: opacity 0.3s;
+        transition: opacity 0.3s;
         color: #253757; }
+        .home__carousel div.owl-nav button.owl-prev:hover,
+        .home__carousel div.owl-nav button.owl-next:hover {
+          opacity: .7; }
         .home__carousel div.owl-nav button.owl-prev:before,
         .home__carousel div.owl-nav button.owl-next:before {
           display: block;

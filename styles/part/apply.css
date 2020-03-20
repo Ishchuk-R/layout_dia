@@ -6,6 +6,7 @@
   @media (max-width: 991.98px) {
     .apply {
       padding-top: 60px;
+      background-size: contain;
       padding-bottom: 60px; } }
   .apply__title {
     font-size: 52px;
